@@ -1,0 +1,105 @@
+
+/* home page */
+
+html {
+  font-family: 'Saira Condensed', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+nav {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 400;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding-right: .8rem;
+
+  color: #a4b3b6;
+  text-decoration: none;
+  letter-spacing: .3px;
+  text-align: center;
+
+  border-left: transparent solid 1.5px;
+  padding-left: 5px;
+}
+
+nav a:hover {
+  color: grey;
+
+  transition: all 150ms ease-in;
+
+  border-left: solid 1.5px
+}
+
+nav a:focus {
+  color: grey;
+  border-left: solid 1.5px
+}
+
+nav #current {
+  color: grey;
+  border-left: solid 1.5px
+}
+
+.plength {
+  max-width: 19rem;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  font-family: 'Satisfy', cursive;
+  text-decoration: none;
+  color: #40c1d8;
+}
+
+.btn {
+  font-family: 'Satisfy', cursive;
+}
+
+nav {
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 100;
+  color: #a4b3b6
+}
+
+@media only screen and (min-width: 35em) {
+
+  .slogan-content {
+    position: absolute;
+    text-align: left;
+    color: #fff;
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+}
