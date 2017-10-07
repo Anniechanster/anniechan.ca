@@ -41,7 +41,7 @@ nav a:focus {
 }
 
 nav #current {
-  color: grey;
+  color: #40c1d8;
   border-left: solid 2px
 }
 
@@ -52,17 +52,6 @@ nav #current {
 .img-flex {
   display: block;
   width: 100%;
-}
-
-.banner {
-  position: relative;
-  overflow: hidden;
-}
-
-.banner-content {
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .logo {
