@@ -26,26 +26,32 @@
       <nav class="unit" role="navigation" id="nav">
         <div class="">
           <ul class="line milli list-group-inline">
-            <li><a id="current" href="about.html">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="creations.html">Creations</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a id="current" href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
 
     </header>
 
-    <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-      <div class="">
-        <h3 class="yotta pad-t push-0">Annie Chan</h3>
-        <h3 class="milli">I am a Graphic Designer who loves to create.</h3>
-        <p class="plength max-length-no-center">Life is too short to waste it on bad design. There is always something waiting to be improved. That is the reason why I professionalize in making things better.</p>
+    <form class="unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-b-2 pad-t-2" action="https://formspree.io/annieszemienchan@gmail.com" method="POST">
+      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+        <label for="name" class="push-1-8">Name</label>
+        <input id="name" name="name">
       </div>
-    </div>
-
-    <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] push">
-      <img class="img-flex" src="images/anniec.jpg" alt="">
-    </div>
+      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+        <label for="email" class="push-1-8">E-mail address</label>
+        <input id="email" type="email">
+      </div>
+      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+        <label for="details" class="push-1-8">Message</label>
+        <textarea id="details" name="message"></textarea>
+      </div>
+      <div class="unit xs-1 text-center">
+        <button class="btn mega" type="submit">Send Message</button>
+      </div>
+    </form>
 
     <footer class="unit [ xs-1 s-1 m-1 l-1 ] pad-t-2 pad-b-1-4" pad-t-2>
       <div class="unit">
