@@ -35,25 +35,43 @@
 
     </header>
 
-    <form class="unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-b-2 pad-t-2" action="https://formspree.io/annieszemienchan@gmail.com" method="POST">
-      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
-        <label for="name" class="push-1-8">Name</label>
-        <input id="name" name="name">
-      </div>
-      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
-        <label for="email" class="push-1-8">E-mail address</label>
-        <input id="email" type="email">
-      </div>
-      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
-        <label for="details" class="push-1-8">Message</label>
-        <textarea id="details" name="message"></textarea>
-      </div>
-      <div class="unit xs-1 text-center">
-        <button class="btn mega" type="submit">Send Message</button>
-      </div>
+    <form class="unit [ xs-1 s-1 m-2-3 l-1-2 ] pad-t-2" action="https://formspree.io/annieszemienchan@gmail.com" method="POST">
+      <fieldset class="">
+        <legend class="unit [ xs-1 s-1 m-1 l-1 ] micro">Need work done? Get in touch with me.</legend>
+
+          <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+            <label for="name" class="push-1-8">Name *</label>
+            <input id="name" name="name" required aria-describedby="name-error">
+            <p class="error-message milli push-0" id="name-error">
+              <span class="">Please provide a name</span>
+            </p>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+            <label for="email" class="push-1-8">E-mail address *</label>
+            <input id="email" type="email" required aria-describedby="email-error">
+            <p class="error-message milli push-0" id="email-error">
+              <span class="">Please provide an email</span>
+            </p>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+            <label for="message" class="push-1-8">Message *</label>
+            <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
+            <p class="error-message milli push-0" id="message-error">
+              <span class="">Please provide a message</span>
+            </p>
+          </div>
+
+          <div class="unit xs-1 text-center">
+            <button class="btn mega" type="submit">Send Message</button>
+          </div>
+
+        </legend>
+      </fieldset>
     </form>
 
-    <footer class="unit [ xs-1 s-1 m-1 l-1 ] pad-t-2 pad-b-1-4" pad-t-2>
+    <footer class="unit [ xs-1 s-1 m-1 l-1 ] pad-b-1-4" pad-t-2>
       <div class="unit">
         <div class="unit">
           <p class="push-0 micro">All Contents © 2017 anniechan.ca All Rights Reserved.</p>
