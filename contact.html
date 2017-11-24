@@ -1,85 +1,41 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Annie Chan Designs</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:100,300,400,600" rel="stylesheet">
-</head>
-<body>
+---
+layout: default
+---
 
-  <main class="grid wrapper grid-middle pad-t-2 pad-b gutter-2">
+<form class="unit [ xs-1 s-1 m-1 l-1 ] pad-t-2" action="https://formspree.io/annieszemienchan@gmail.com" method="POST">
 
-    <header class="unit [ xs-1 s-1 m-1 l-1 ]">
+  <fieldset class="unit">
+    <legend class="unit [ xs-1 s-1 m-1 l-1 ] micro">Need work done? Get in touch with me.</legend>
 
-      <div class="unit [ xs-1 s-1 m-2-3 l-3-4 ]">
-        <a class="logo" href="index.html">
-          <h1 class="gutter-1-4 exa">Annie Chan</h1>
-        </a>
+      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+        <label for="name" class="push-1-8">Name *</label>
+        <input id="name" name="name" required aria-describedby="name-error">
+        <p class="error-message milli push-0" id="name-error">
+          <span class="">Please provide a name</span>
+        </p>
       </div>
 
-      <nav class="unit" role="navigation" id="nav">
-        <div class="">
-          <ul class="line milli list-group-inline">
-            <li><a href="about.html">About</a></li>
-            <li><a href="creations.html">Creations</a></li>
-            <li><a id="current" href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-
-    </header>
-
-    <form class="unit [ xs-1 s-1 m-2-3 l-1-2 ] pad-t-2" action="https://formspree.io/annieszemienchan@gmail.com" method="POST">
-      <fieldset class="">
-        <legend class="unit [ xs-1 s-1 m-1 l-1 ] micro">Need work done? Get in touch with me.</legend>
-
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
-            <label for="name" class="push-1-8">Name *</label>
-            <input id="name" name="name" required aria-describedby="name-error">
-            <p class="error-message milli push-0" id="name-error">
-              <span class="">Please provide a name</span>
-            </p>
-          </div>
-
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
-            <label for="email" class="push-1-8">E-mail address *</label>
-            <input id="email" type="email" required aria-describedby="email-error">
-            <p class="error-message milli push-0" id="email-error">
-              <span class="">Please provide an email</span>
-            </p>
-          </div>
-
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
-            <label for="message" class="push-1-8">Message *</label>
-            <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
-            <p class="error-message milli push-0" id="message-error">
-              <span class="">Please provide a message</span>
-            </p>
-          </div>
-
-          <div class="unit xs-1 text-center">
-            <button class="btn mega" type="submit">Send Message</button>
-          </div>
-
-        </legend>
-      </fieldset>
-    </form>
-
-    <footer class="unit [ xs-1 s-1 m-1 l-1 ] pad-b-1-4" pad-t-2>
-      <div class="unit">
-        <div class="unit">
-          <p class="push-0 micro">All Contents © 2017 anniechan.ca All Rights Reserved.</p>
-        </div>
+      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+        <label for="e-mail" class="push-1-8">E-mail address *</label>
+        <input id="e-mail" type="e-mail" name="_replyto" required aria-describedby="e-mail-error">
+        <p class="error-message milli push-0" id="e-mail-error">
+          <span class="">Please provide an email</span>
+        </p>
       </div>
-    </footer>
 
-  </main>
+      <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+        <label for="message" class="push-1-8">Message *</label>
+        <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
+        <p class="error-message milli push-0" id="message-error">
+          <span class="">Please provide a message</span>
+        </p>
+      </div>
 
-</body>
-</html>
+      <div class="unit xs-1 text-center">
+        <button class="btn mega" type="submit">Send Message</button>
+      </div>
+
+    </legend>
+  </fieldset>
+
+</form>
