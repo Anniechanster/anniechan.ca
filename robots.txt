@@ -1,0 +1,3 @@
+Sitemap: https://anniechan.ca/sitemap.xml
+
+User-Agent: *
