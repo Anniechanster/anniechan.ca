@@ -13,39 +13,41 @@
 </head>
 <body>
 
-<main class="grid wrapper grid-middle pad-t-2 pad-b gutter-2">
+  <main class="grid wrapper grid-middle pad-t-2 pad-b gutter-2 site">
 
-  <header class="unit [ xs-1 s-1 m-1 l-1 ]">
+    <header class="unit [ xs-1 s-1 m-1 l-1 ]">
 
-    <div class="unit [ xs-1 s-1 m-2-3 l-3-4 ]">
-      <a class="logo" href="{{site.baseurl}}/">
-        <h1 class="gutter-1-4 exa">Annie Chan</h1>
-      </a>
+      <div class="unit [ xs-1 s-1 m-2-3 l-3-4 ]">
+        <a class="logo" href="{{site.baseurl}}/">
+          <h1 class="gutter-1-4 exa">Annie Chan</h1>
+        </a>
+      </div>
+
+      <nav class="unit" role="navigation" id="nav">
+        <div class="">
+          <ul class="milli list-group-inline">
+            <li><a href="{{site.baseurl}}/about/">About</a></li>
+            <li><a href="{{site.baseurl}}/creations/">Creations</a></li>
+            <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+
+    <div class="site-content">
+
+      {{content}}
+
     </div>
 
-    <nav class="unit" role="navigation" id="nav">
-      <div class="">
-        <ul class="milli list-group-inline">
-          <li><a href="{{site.baseurl}}/about/">About</a></li>
-          <li><a href="{{site.baseurl}}/creations/">Creations</a></li>
-          <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+  </main>
 
-  </header>
-
-    {{content}}
-
-  <footer class="unit [ xs-1 s-1 m-1 l-1 ]">
-    <div class="unit">
-      <div class="unit">
-        <p class="push-0 micro pad-t-2 pad-b-1-4">All Contents © 2017 anniechan.ca All Rights Reserved.</p>
-      </div>
+  <footer class="grid">
+    <div class="unit wrapper">
+      <p class="micro pad-t push-0 grid-middle gutter-2 pad-b">All Contents © 2017 anniechan.ca All Rights Reserved.</p>
     </div>
   </footer>
-
-</main>
 
 </body>
 </html>
