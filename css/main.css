@@ -13,12 +13,12 @@ nav {
   font-family: 'Saira Condensed', sans-serif;
   font-weight: 400;
   list-style-type: none;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 
 nav a {
-  display: block;
+  display: inline-block;
   padding-right: .8rem;
 
   color: #a4b3b6;
@@ -103,6 +103,10 @@ legend {
   color: #a4b3b6;
 }
 
+form {
+  float: left;
+}
+
 .error-message {
   display: none;
   color: #40c1d8;
@@ -121,16 +125,25 @@ legend {
 /* footer */
 
 footer {
-  background-color: #a4b3b6;
+  background-color: #40c1d8;
+  opacity: 0.4;
 }
 
 footer p {
   color: #fff;
 }
 
+.icon {
+  text-align: right;
+}
+
+.iconbtn {
+  color: #40c1d8;
+}
+
 .site {
   display: flex;
-  min-height: 91vh;
+  min-height: 90.7vh;
   flex-direction: column;
 }
 
@@ -140,6 +153,8 @@ footer p {
 
 @media only screen and (min-width: 35em) {
 
-
+  .media-icon {
+    text-align: right;
+  }
 
 }
