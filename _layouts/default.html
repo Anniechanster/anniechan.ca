@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}} · {%endif %}Annie Chan Designs</title>
+  <meta name="description" content="Annie Chan Graphic Design Portfolio">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
@@ -13,12 +14,12 @@
 </head>
 <body>
 
-  <main class="grid wrapper grid-middle pad-t-2 pad-b gutter-2 site">
+  <main class="itemscope item type grid wrapper grid-middle pad-t-2 pad-b gutter-2 site">
 
     <header class="unit [ xs-1 s-1 m-1 l-1 ]">
 
       <div class="unit [ xs-1 s-1 m-2-3 l-3-4 ]">
-        <a class="logo" href="{{site.baseurl}}/">
+        <a itemprop="url" class="logo" href="{{site.baseurl}}/">
           <h1 class="gutter-1-4 exa">Annie Chan</h1>
         </a>
       </div>
@@ -26,9 +27,9 @@
       <nav class="unit" role="navigation" id="nav">
         <div class="">
           <ul class="milli list-group-inline">
-            <li><a href="{{site.baseurl}}/about/">About</a></li>
-            <li><a href="{{site.baseurl}}/creations/">Creations</a></li>
-            <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
+            <li><a itemprop="url" href="{{site.baseurl}}/about/">About</a></li>
+            <li><a itemprop="url" href="{{site.baseurl}}/creations/">Creations</a></li>
+            <li><a itemprop="url" href="{{site.baseurl}}/contact/">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -52,19 +53,19 @@
 
       <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t pad-b gutter-2 media-icon">
 
-        <a class="iconbtn" href="#">
+        <a itemprop="url" class="iconbtn" href="#">
           <i class="icon i-32 gutter">
             <svg><use xlink:href="../../images/icons.svg#twitter" /></svg>
           </i>
         </a>
 
-        <a class="iconbtn" href="#">
+        <a itemprop="url" class="iconbtn" href="#">
           <i class="icon i-32 gutter">
             <svg><use xlink:href="../../images/icons.svg#facebook" /></svg>
           </i>
         </a>
 
-        <a class="iconbtn" href="#">
+        <a itemprop="url" class="iconbtn" href="#">
           <i class="icon i-32 gutter">
             <svg><use xlink:href="../../images/icons.svg#instagram" /></svg>
           </i>
