@@ -2,19 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <!-- The <loc> tag is the only one that’s required. -->
     <loc>https://domain.ca</loc>
-    <!-- OPTIONAL: Priority will default to 0.5 but can go up to 1.0. -->
     <priority>1.0</priority>
-    <!-- OPTIONAL: Must be in this format -->
-    <lastmod>2005-01-01</lastmod>
-    <!-- OPTIONAL: can be always, hourly, daily, weekly, monthly, yearly, never -->
+    <lastmod>2017-12-05</lastmod>
     <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- If you want to add another page, add another <url> tag -->
-  <url>
-    <loc>https://domain.ca/about/</loc>
   </url>
 
 </urlset>

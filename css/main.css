@@ -152,7 +152,7 @@ footer p {
 
 .site {
   display: flex;
-  min-height: 93vh;
+  min-height: 92.8vh;
   flex-direction: column;
 }
 
