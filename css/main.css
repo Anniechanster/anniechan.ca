@@ -152,7 +152,7 @@ footer p {
 
 .site {
   display: flex;
-  min-height: 90.7vh;
+  min-height: 93vh;
   flex-direction: column;
 }
 
@@ -162,8 +162,12 @@ footer p {
 
 @media only screen and (min-width: 35em) {
 
-  .media-icon {
+  .media-icons {
     text-align: right;
+  }
+
+  .copyright {
+    text-align: left;
   }
 
 }
