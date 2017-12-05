@@ -87,6 +87,11 @@ h3 {
   font-weight: 400;
 }
 
+h5 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 300;
+}
+
 p {
   font-family: 'Saira Condensed', sans-serif;
   font-weight: 100;
@@ -95,6 +100,10 @@ p {
 
 .plength {
   max-width: 19rem;
+}
+
+hr {
+  border: 1px solid #40c1d8;
 }
 
 /* form */
