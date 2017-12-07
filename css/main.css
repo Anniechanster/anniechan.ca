@@ -133,9 +133,19 @@ form {
 
 /* footer */
 
+.site {
+  display: flex;
+  min-height: 92.8vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
 footer {
   background-color: #40c1d8;
-  opacity: 0.4;
+  opacity: 0.5;
 }
 
 footer p {
@@ -148,16 +158,6 @@ footer p {
 
 .iconbtn {
   color: #40c1d8;
-}
-
-.site {
-  display: flex;
-  min-height: 92.8vh;
-  flex-direction: column;
-}
-
-.site-content {
-  flex: 1;
 }
 
 @media only screen and (min-width: 35em) {
