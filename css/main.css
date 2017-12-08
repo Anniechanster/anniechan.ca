@@ -11,6 +11,17 @@ a {
   text-decoration: none;
 }
 
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 3px solid #40c1d8  ;
+}
+
 /* home page */
 
 .welcome {
@@ -22,16 +33,6 @@ a {
 .img-flex {
   display: block;
   width: 100%;
-}
-
-.cover a img {
-  opacity: 0.3;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  border: #40c1d8 solid 2px;
-}
-.cover a:hover img {
-  opacity: 10;
 }
 
 h4 {
@@ -78,7 +79,7 @@ nav a:focus {
   border-left: solid 2px
 }
 
-nav #current {
+nav .current {
   color: #40c1d8;
   border-left: solid 2px
 }
@@ -161,7 +162,7 @@ form {
 
 .site {
   display: flex;
-  min-height: 92.8vh;
+  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -186,7 +187,7 @@ footer p {
   color: #40c1d8;
 }
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 38em) {
 
   .media-icons {
     text-align: right;
@@ -199,5 +200,21 @@ footer p {
   .plength {
     max-width: 19rem;
   }
+
+  .cover a img {
+    opacity: 0.3;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border: #40c1d8 solid 2px;
+  }
+
+  .cover a:hover img {
+    opacity: 1;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
 
 }
