@@ -1,3 +1,15 @@
+/* general */
+
+html {
+  font-family: 'Saira Condensed', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
 
 /* home page */
 
@@ -5,18 +17,32 @@
   background-color: #c6e9f3;
 }
 
+/* images */
+
 .img-flex {
   display: block;
   width: 100%;
 }
 
-/* navigation */
-
-html {
-  font-family: 'Saira Condensed', sans-serif;
-  color: #000;
-  background-color: #fff;
+.cover a img {
+  opacity: 0.3;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  border: #40c1d8 solid 2px;
 }
+.cover a:hover img {
+  opacity: 10;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+h6 {
+  font-weight: 100;
+}
+
+/* navigation */
 
 nav {
   font-family: 'Saira Condensed', sans-serif;
