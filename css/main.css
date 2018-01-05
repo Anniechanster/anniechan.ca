@@ -164,6 +164,10 @@ textarea {
   border-color: #40c1d8;
 }
 
+textarea {
+  resize: none;
+}
+
 .error-message {
   display: none;
   color: #40c1d8;
