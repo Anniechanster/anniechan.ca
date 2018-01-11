@@ -205,11 +205,11 @@ footer p {
 }
 
 .icon {
-  text-align: right;
+  opacity: 1;
 }
 
-.iconbtn {
-  color: #40c1d8;
+.icon:hover {;
+  opacity: 0.5;
 }
 
 @media only screen and (min-width: 38em) {
