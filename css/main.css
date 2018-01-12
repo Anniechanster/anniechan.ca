@@ -24,10 +24,7 @@ select:focus {
 
 .top {
   color: #40c1d8;
-}
-
-.video {
-  border: #40c1d8 solid 1px;
+  text-align: center;
 }
 
 /* home page */
